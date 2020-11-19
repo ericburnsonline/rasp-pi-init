@@ -8,9 +8,9 @@ curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/
 /bin/bash /tmp/update-nodejs-and-nodered
 echo "Done installng Node-RED."
 
-echo "Adding Philips Hue palette (node-red-contrib-huemagic) for Node-RED."
-npm install node-red-contrib-huemagic
-echo "Done installing node-red-contrib-huemagic palette for Node-RED."
+#echo "Adding Philips Hue palette (node-red-contrib-huemagic) for Node-RED."
+#npm install node-red-contrib-huemagic
+#echo "Done installing node-red-contrib-huemagic palette for Node-RED."
 
 
 echo "Setting Node-RED to run as a service."
